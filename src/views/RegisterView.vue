@@ -83,6 +83,9 @@
 <script>
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import {getCode, register, login} from '@/api/user'
+import {hbmd5} from '@/api/md5'
+
 export default {
   name: 'RegisterView',
   components: {Footer, Header},

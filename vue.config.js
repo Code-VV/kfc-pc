@@ -11,8 +11,8 @@ module.exports = defineConfig({
     proxy: {
       // 设置代理
       '/api': {
-        // target: 'http://api.xxqq.top', //线上测试',
-        target: 'http://m.metacurrency.trade/api', // 线上正式',
+        target: 'http://api.xxqq.top', //线上测试',
+        // target: 'http://m.metacurrency.trade', // 线上正式',
         // target: 'http://127.0.0.1:8090', //本地测试',
         changeOrigin: false,
         pathRewrite: {
